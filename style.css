@@ -1,0 +1,32 @@
+/* Assignment 3: Bootstrap handles grid, navigation, spacing and buttons. */
+:root { --brand-gold: #d6ad60; }
+body { background: #111317; color: #f5f2eb; font-family: Arial, sans-serif; }
+a { color: var(--brand-gold); }
+a:hover { color: #f1d49b; }
+.header { background: #101115; border-bottom: 1px solid #3c3528; }
+.logo { color: #fff; text-decoration: none; }
+.logo > span { color: var(--brand-gold); font-size: 1.7rem; font-weight: 800; }
+.logo small { display: block; font-size: .62rem; letter-spacing: .08em; }
+.nav-link { color: #eee; }
+.nav-link:hover, .nav-link.active { color: var(--brand-gold); }
+.hero { background: linear-gradient(110deg,#11151deF,#171717cf),url('https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1600&q=80') center/cover; }
+.page-hero { background: #1d2229; }
+.dark-section, .footer { background: #17191e; }
+.hero h1 span, h2 span, .gold, .service-number { color: var(--brand-gold); }
+.eyebrow { letter-spacing: .12em; }
+.section { border-bottom: 1px solid #303036; }
+.card { background: #22252c; color: #f5f2eb; }
+.btn-warning { background: var(--brand-gold); border-color: var(--brand-gold); color: #141414; }
+.btn-warning:hover { background: #edcb89; border-color: #edcb89; }
+.form-control, .form-select { background: #f9f9f9; }
+.footer a { color: #e6e6e6; }
+.hero-bottom { background: #17191ecc; }
+.hero-bottom span { display: block; }
+img { max-width: 100%; height: auto; }
+/* Small brand correction: allow long headings and links to wrap on phones. */
+h1,h2,h3,p,a { overflow-wrap: anywhere; }
+
+/* Keep footer links legible and separated without custom layout. */
+.footer a { display: inline-block; margin-right: .75rem; margin-bottom: .5rem; }
+.navbar-brand { white-space: normal; }
+.card a { color: #eac37d; }
